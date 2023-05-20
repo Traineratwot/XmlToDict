@@ -73,3 +73,6 @@ $array = XmlToDict::parse($xml);
     }
 }
 ```
+
+## supported
+ php 7.3+
