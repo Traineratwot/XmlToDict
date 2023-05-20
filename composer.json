@@ -19,5 +19,16 @@
 	},
 	"require-dev":{
 		"phpunit/phpunit":"*"
-	}
+	},
+	"keywords"   :[
+		"xml",
+		"xmltodict",
+		"xmltoarray",
+		"parser",
+		"xml2json",
+		"xml to json",
+		"xml to array",
+		"xml2array",
+		"xmltojson"
+	]
 }
