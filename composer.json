@@ -17,6 +17,7 @@
 	"require"    :{
 		"php":">=7.2"
 	},
+	"license": "GPL-3.0-or-later",
 	"require-dev":{
 		"phpunit/phpunit":"*"
 	},
