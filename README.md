@@ -1,5 +1,7 @@
 # XmlToDict
 
+A complete analogue of XmlToDict for python, but written in PHP
+
 Полный аналог XmlToDict для python, но написанный на PHP
 # install
 ```bash
