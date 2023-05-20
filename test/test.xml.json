@@ -1,0 +1,279 @@
+{
+	"HotelDescription": {
+		"@CID": "apartamenty_rodnik",
+		"@HotelTypeCID": "apart-otel'",
+		"@HotelTypeName": "Апартаменты/квартиры",
+		"@HotelName": "Апартаменты Родник",
+		"@TownCID": "anapa",
+		"@TownName": "Анапа",
+		"@CountryName": "Россия",
+		"@Level": "1*",
+		"@Description": "<p style=\"text-align: justify;\">«Родник» находится в 4 км от центра Анапы, в тихом, изолированном от многолюдных мест коттеджном городке. Он представляет собой 2-этажный коттедж для спокойного семейного отдыха в условиях, близких к домашним. «Родник» построен на закрытой охраняемой территории. В шаговой доступности от него располагаются аквапарк «Золотой берег», Парк аттракционов, магазины, рестораны, кафе. При желании посетить прочие достопримечательности Анапы, находящиеся довольно близко, можно воспользоваться общественным транспортом. В самом городке есть торговые точки и банкоматы.</p><p style=\"text-align: justify;\"><span></span>Апартаменты состоят из трех комнат на два места (третье – добавочное, на диване) и кухни с полным набором надлежащих бытовых приборов, утвари и посуды. В распоряжении постояльцев – кондиционер, холодильник и телевизор, стиральная машина и сушилка для белья на просторной меблированной террасе. Есть собственный санузел с душевой кабиной, гараж для автомобиля.</p><p style=\"text-align: justify;\"><span></span>Неподалеку находится санаторий с тем же названием. При желании в нем всегда можно приобрести курсовку для оздоровительного лечения.</p><p style=\"text-align: justify;\"><span></span>Дети в апартаменты принимаются с двухлетнего возраста.</p><p style=\"text-align: justify;\"><span></span>Городской пляж в 450 метрах от «Родника» благоустроен и имеет песчаное покрытие.</p>",
+		"@BuiltYear": "2009",
+		"@PriceIncludes": "<ul><li>проживание в номере выбранной категории</li></ul><p><strong>Бесплатно предоставляются услуги:</strong></p><ul><li>парковка для автомобилей</li><li>пользование кухней в апартаментах</li></ul>",
+		"@AnimalsAllowed": "",
+		"@HowToReach": "<p><strong>Самолетом до аэропорта г. Анапа</strong>, далее на маршрутном такси №127 до остановки «Алые паруса»,<span class=\"redactor-invisible-space\"> далее 540 м до отеля.</span></p><p><strong>Поездом до ж/д вокзала г. Анапа</strong>, далее пройти пешком 460 м до остановки «Вокзал Анапа», <span class=\"redactor-invisible-space\">далее на маршрутном такси №120 до остановки «Алые паруса»,<span class=\"redactor-invisible-space\"> далее 540 м до отеля.</span></span></p><p><strong>Рекомендуем заказывать трансфер.</strong></p>",
+		"@xmlns": "urn:schemas-som-ru:tws-reservation2HotelDescription",
+		"@HotelCategoryCID": "1_serdce",
+		"@HotelCategoryName": "1 сердце внутренний рейтинг",
+		"@AreaName": "Анапский район",
+		"@RegionName": "Краснодарский край",
+		"@Address": "Краснодарский край, г. Анапа, Межсанаторный проезд 41, перед заездом обращаться по адресу 353440, Россия, Краснодарский край, г. Анапа, ул. Горького, 61.",
+		"@CheckInTime": "14:00:00.000",
+		"@CheckOutTime": "12:00:00.000",
+		"@SpecialRequirements": "Дети принимаются с 2 лет.",
+		"Coordinates": {
+			"@Latitude": "44.9396",
+			"@Longitude": "37.3147"
+		},
+		"DistanceList": {
+			"Distance": [
+				{
+					"@Name": "до аэропорта",
+					"@Distance": "10 км - г. Анапа"
+				},
+				{
+					"@Name": "до бювета",
+					"@Distance": "150 м"
+				},
+				{
+					"@Name": "до ж/д вокзала",
+					"@Distance": "1,5 км - г. Анапа, 34 км - ст. Тоннельная"
+				},
+				{
+					"@Name": "до моря",
+					"@Distance": "500 м"
+				},
+				{
+					"@Name": "до пляжа",
+					"@Distance": "450 м"
+				},
+				{
+					"@Name": "до центра",
+					"@Distance": "4 км"
+				}
+			]
+		},
+		"WorkPeriod": {
+			"@Name": "сезонно",
+			"@Description": "20.05 - 01.10"
+		},
+		"RoomCategoryList": {
+			"RoomCategory": {
+				"@RoomTypeCID": "standartnyi",
+				"@RoomTypeName": "Стандартный",
+				"@RoomCategoryCID": "sqc5hsi7peqllkioam0itw==",
+				"@RoomCategoryName": "2-местный",
+				"@RoomCategoryDescription": " с/у с душем/душевая кабина, ТВ, холодильник,кондиционер, оборудованная кухня (электро-плита, чайник)",
+				"@BaseSeatQuantity": "2",
+				"@ExtSeatQuantity": "2"
+			}
+		},
+		"MealList": {
+			"Meal": {
+				"@System": "Без питания"
+			}
+		},
+		"InfrastructureObjectList": {
+			"InfrastructureObject": [
+				{
+					"@Name": "Парковка",
+					"ContentList": {
+						"Content": [
+							{
+								"@Name": "бесплатная"
+							},
+							{
+								"@Name": "парковка возле корпуса"
+							}
+						]
+					}
+				},
+				{
+					"@Name": "Рестораны и бары",
+					"@Description": "кухня для самостоятельного приготовления пищи"
+				}
+			]
+		},
+		"HotelImageList": {
+			"Image": [
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/c/5b/c5b9bcea5d4a0f9c026f6ca961cedd2b.jpg",
+					"@Index": "0",
+					"@Description": "Внешний вид"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/1/3a/13a41d98068871a6316e2e32b692aa67.jpg",
+					"@Index": "1",
+					"@Description": "Парковка"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/4/56/45631ddea99f2fcfd0ae2a28f5df63a8.jpg",
+					"@Index": "2",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/1/e7/1e75d29679162b6f00dddc06158d122a.jpg",
+					"@Index": "3",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/8/54/854db47201dca64e9db7818634af3c76.jpg",
+					"@Index": "4",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/b/11/b1184f351b2b184b819e96481d6ac681.jpg",
+					"@Index": "5",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/8/a7/8a7a65aa6d5d814575846cb7f252adda.jpg",
+					"@Index": "6",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/c/be/cbeb37c0909a39da56d3d9792eff5afe.jpg",
+					"@Index": "7",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/9/bf/9bfdaafe01784209e54df2aba1e88ab9.jpg",
+					"@Index": "8",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/b/e5/be52613d48a86a8b718757ae57e3c6e1.jpg",
+					"@Index": "9",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/d/fb/dfb5d45d4f44475bae6041f184c17c15.jpg",
+					"@Index": "10",
+					"@Description": "Апартаменты 4-местный 1-комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/2/62/2625ca542ed2a3d516ea7526c291f9ee.jpg",
+					"@Index": "11",
+					"@Description": "Апартаменты 6 местный 2 комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/5/78/578f94b769621f4b5d82dbe49cfff021.jpg",
+					"@Index": "12",
+					"@Description": "Апартаменты 6 местный 2 комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/1/51/151cb99221ac287bfe59f1d52799171b.jpg",
+					"@Index": "13",
+					"@Description": "Апартаменты 6 местный 2 комнатный"
+				},
+				{
+					"@Url": "https://uploads2.stells.info/storage/jpg/4/27/427f571536d9a18fb52ed0b4e25f3d29.jpg",
+					"@Index": "14",
+					"@Description": "Апартаменты 6 местный 2 комнатный"
+				}
+			]
+		},
+		"BeachList": {
+			"Beach": {
+				"@Name": "",
+				"ContentList": {
+					"Content": [
+						{
+							"@Name": "Оборудованный",
+							"ContentList": {
+								"Content": [
+									{
+										"@Name": "душевые"
+									},
+									{
+										"@Name": "зонты"
+									},
+									{
+										"@Name": "лежаки"
+									},
+									{
+										"@Name": "навесы"
+									},
+									{
+										"@Name": "туалет"
+									}
+								]
+							}
+						},
+						{
+							"@Name": "Характеристики пляжа",
+							"@Description": "450 м",
+							"ContentList": {
+								"Content": [
+									{
+										"@Name": "городской"
+									},
+									{
+										"@Name": "песчаный"
+									}
+								]
+							}
+						}
+					]
+				},
+				"BeachServiceList": {
+					"BeachService": {
+						"@Name": "Прокат пляжного инвентаря (за дополнительную плату)"
+					}
+				}
+			}
+		},
+		"ForChildren": {
+			"@AgeFrom": "2"
+		},
+		"GroupHotelList": {
+			"GroupHotel": [
+				{
+					"@CID": "svobodnyi_grafik"
+				},
+				{
+					"@CID": "rb_2012"
+				},
+				{
+					"@CID": "anapa"
+				},
+				{
+					"@CID": "pionerskii_prospekt"
+				},
+				{
+					"@CID": "krasnodarskii_krai"
+				},
+				{
+					"@CID": "rannee_bronirovanie_2015"
+				},
+				{
+					"@CID": "rb_2017"
+				},
+				{
+					"@CID": "sait_alean_ru"
+				},
+				{
+					"@CID": "rossiya"
+				},
+				{
+					"@CID": "kr_krai_dlya_saita"
+				},
+				{
+					"@CID": "anapa_kurort_sait"
+				},
+				{
+					"@CID": "pionerskii_prospekt_sait"
+				},
+				{
+					"@CID": "av_16-20_"
+				}
+			]
+		},
+		"elem": "Test",
+		"elem2": {
+			"@attr": "8",
+			"#text": "Test"
+		}
+	}
+}
