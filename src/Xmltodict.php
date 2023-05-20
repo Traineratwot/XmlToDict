@@ -38,15 +38,18 @@
 		{
 			self::$counter++;
 			$array           = [];
-			$array['@xmlns'] = [""];
 			foreach ($xml->attributes() as $attrName => $attrValue) {
-				$array['@' . $attrName] = (string)$attrValue;
+				if (!empty($attrValue)) {
+					$array['@' . $attrName] = (string)$attrValue;
+				}
 			}
 			foreach ($xml->getDocNamespaces() as $attrName => $attrValue) {
-				if ($attrName) {
-					$array['@xmlns:' . $attrName] = (string)$attrValue;
-				} else {
-					$array['@xmlns'] = (string)$attrValue;
+				if (!empty($attrValue)) {
+					if ($attrName) {
+						$array['@xmlns:' . $attrName] = (string)$attrValue;
+					} else {
+						$array['@xmlns'] = (string)$attrValue;
+					}
 				}
 			}
 			foreach ($xml->children() as $element) {
@@ -69,7 +72,9 @@
 				if (is_array($data) and count($data) === 1 and array_key_exists('#text', $data)) {
 					$data = $data['#text'];
 				}
-
+				if(is_array($data) and empty($data)) {
+					$data = null;
+				}
 				if (is_array($data) && array_key_exists(self::$keyName, $data)) {
 					$key = $data[self::$keyName];
 					unset($data[self::$keyName]);
