@@ -1,32 +1,32 @@
 {
-	"books":{
-		"book" :[
-			{
-				"@id"      :"1",
-				"title"    :{
-					"@meta":"test",
-					"#text":"Harry Potter and the Philosopher's Stone"
-				},
-				"author"   :"J.K. Rowling",
-				"publisher":"Bloomsbury",
-				"year"     :"1997"
-			},
-			{
-				"@id"      :"2",
-				"title"    :{
-					"@meta":"test2",
-					"#text":"The Lord of the Rings"
-				},
-				"author"   :"J.R.R. Tolkien",
-				"publisher":"George Allen & Unwin",
-				"year"     :"1954"
-			}
-		],
-		"item" :"Text",
-		"item2":{
-			"@desc":"Lorem",
-			"#text":"Text"
-		},
-		"item3":null
-	}
+  "books": {
+    "book":  [
+      {
+        "@id":       "1",
+        "title":     {
+          "@meta": "test",
+          "#text": "Harry Potter and the Philosopher's Stone"
+        },
+        "author":    "J.K. Rowling",
+        "publisher": "Bloomsbury",
+        "year":      "1997"
+      },
+      {
+        "@id":       "2",
+        "title":     {
+          "@meta": "test2",
+          "#text": "The Lord of the Rings"
+        },
+        "author":    "J.R.R. Tolkien",
+        "publisher": "George Allen & Unwin",
+        "year":      "1954"
+      }
+    ],
+    "item":  "Text",
+    "item2": {
+      "@desc": "Lorem",
+      "#text": "Text"
+    },
+    "item3": null
+  }
 }

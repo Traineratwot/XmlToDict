@@ -1,35 +1,35 @@
 {
-	"name"       :"traineratwot/xmltodict",
-	"description":"xml parser LIKE python xmltodict",
-	"type"       :"library",
-	"version"    :"1.1.1",
-	"autoload"   :{
-		"psr-4":{
-			"Traineratwot\\XmlToDict\\":"src/"
-		}
-	},
-	"authors"    :[
-		{
-			"name" :"Kirill",
-			"email":"traineratwot@yandex.ru"
-		}
-	],
-	"require"    :{
-		"php":">=7.2"
-	},
-	"license": "GPL-3.0-or-later",
-	"require-dev":{
-		"phpunit/phpunit":"*"
-	},
-	"keywords"   :[
-		"xml",
-		"xmltodict",
-		"xmltoarray",
-		"parser",
-		"xml2json",
-		"xml to json",
-		"xml to array",
-		"xml2array",
-		"xmltojson"
-	]
+  "name":        "traineratwot/xmltodict",
+  "description": "xml parser LIKE python xmltodict",
+  "type":        "library",
+  "version":     "1.1.1",
+  "autoload":    {
+    "psr-4": {
+      "Traineratwot\\XmlToDict\\": "src/"
+    }
+  },
+  "authors":     [
+    {
+      "name":  "Kirill",
+      "email": "traineratwot@yandex.ru"
+    }
+  ],
+  "require":     {
+    "php": ">=7.2"
+  },
+  "license":     "GPL-3.0-or-later",
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "keywords":    [
+    "xml",
+    "xmltodict",
+    "xmltoarray",
+    "parser",
+    "xml2json",
+    "xml to json",
+    "xml to array",
+    "xml2array",
+    "xmltojson"
+  ]
 }

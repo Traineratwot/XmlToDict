@@ -3,12 +3,15 @@
 A complete analogue of XmlToDict for python, but written in PHP
 
 Полный аналог XmlToDict для python, но написанный на PHP
+
 # install
+
 ```bash
 composer require traineratwot/xmltodict
 ```
 
 ## Usage
+
 ```php
 $array = XmlToDict::load(__DIR__ . '/test.xml');
 
@@ -17,6 +20,7 @@ $array = XmlToDict::parse($xml);
 ```
 
 ## example
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <books>
@@ -75,4 +79,5 @@ $array = XmlToDict::parse($xml);
 ```
 
 ## supported
- php 7.3+
+
+php 7.3+
