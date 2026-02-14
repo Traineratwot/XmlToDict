@@ -4,6 +4,7 @@
 namespace Traineratwot\XmlToDict;
 
 use SimpleXMLElement;
+use RuntimeException;
 
 class XmlToDict
 {
